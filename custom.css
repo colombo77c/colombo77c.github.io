@@ -1,0 +1,39 @@
+body {
+  color: #001f66;
+  font-family: 'Lato', sans-serif; }
+
+.name {
+  font-size: 2.5rem;
+  font-weight: 300;
+  dislay: block;
+  text-align: center;
+  padding-top: 100px; }
+
+hr {
+  width: 80%;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ff1944;
+  color: #ff1944;
+  border: 0 none; }
+
+.contact-list {
+  display: block;
+  text-align: center; }
+
+.contact-list li {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 25px;
+  padding-left: 25px;
+  font-size: 3rem;
+  font-weight: 300; }
+
+.contact-list li a,
+.contact-list li a:visited {
+  text-decoration: none;
+  color: #001f66; }
+
+.contact-list li a:hover {
+  color: #ff1944; }

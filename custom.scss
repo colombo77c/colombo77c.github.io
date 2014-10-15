@@ -1,0 +1,54 @@
+$primary-color: #001F66;
+$alt-color: #FF1944;
+$hr-color: #FF1944;
+
+$font-lg: 3rem;
+$font-md: 2.5rem;
+
+body {
+    color: $primary-color;
+    font-family: 'Lato', sans-serif;
+}
+
+.name {
+    font-size: $font-md;
+    font-weight: 300;
+    dislay: block;
+    text-align: center;
+    padding-top: 100px;
+}
+
+hr {
+    width: 80%;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: $hr-color;
+    color: $hr-color;
+    border: 0 none;
+}
+
+.contact-list {
+    display: block;
+    text-align: center;
+}
+
+.contact-list li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right:25px;
+    padding-left: 25px;
+    font-size: $font-lg;
+    font-weight: 300;
+}
+
+.contact-list li a,
+.contact-list li a:visited {
+    text-decoration: none;
+    color: $primary-color;
+}
+
+.contact-list li a:hover {
+    color: $alt-color;
+}
+
